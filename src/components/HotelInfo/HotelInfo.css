@@ -1,0 +1,42 @@
+.hotelInfo {
+    width: 90%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-content {
+    width: 45%;
+    margin-right: 2%;
+}
+
+.rightMap {
+    width: 45%;
+}
+
+.rightMap img {
+    width: 100%;
+    height: auto;
+}
+
+.leftImage {
+    width: 45%;
+    float: left;
+    margin-right: 2%;
+}
+
+.leftImage img {
+    width: 100%;
+    height: auto;
+}
+
+.contentImageInfo {
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+.rightContent {
+    width: 50%;
+    float: left;
+    margin-left: 2%;
+}

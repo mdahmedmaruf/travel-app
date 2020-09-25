@@ -1,0 +1,49 @@
+.homeContent {
+    width: 90%;
+}
+
+.travelArea {
+    width: 50%;
+    float: left;
+    margin-right: 30px;
+}
+
+.travelArea h1 {
+    font-size: 60px;
+}
+
+.travelArea p {
+    margin: 20px 0 30px;
+}
+
+.travelArea button {
+    background-color: #F9A51A;
+    border: 0;
+    border-radius: 3px;
+    padding: 10px 30px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.homeImages {
+    width: 46%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: self-end;
+}
+
+.homeImages div {
+    width: 100%;
+    margin-left: 3%;
+    height: 200px;
+    display: flex;
+    align-items: flex-end;
+    padding: 20px;
+    cursor: pointer;
+    border-radius: 3px;
+    border: 2px solid transparent;
+    background-size: contain;
+}
+.homeImages div:hover {
+    border: 2px solid #F9A51A;
+}

@@ -1,0 +1,96 @@
+.loginContainer {
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 60px;
+}
+.loginContainer > p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.loginContainer form input {
+    display: block;
+    width: 100%;
+    margin-bottom: 12px;
+    padding: 12px;
+    border: 0;
+    border-bottom: 1px solid gray;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+.loginContainer form label {
+    display: inline-block;
+}
+.loginContainer form input[type=checkbox] {
+    display: inline-block;
+}
+.loginContainer form input[type="submit"] {
+    background-color: #F9A51A;
+    border: 0;
+    cursor: pointer;
+    margin: 20px auto;
+    width: 100%;
+}
+
+.loginForm {
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 50px 40px;
+    width: 40%;
+    margin: auto;
+}
+.loginForm input[type="text"],
+.loginForm input[type="password"] {
+	display: block;
+	width: 100%;
+	padding: 14px;
+	font-size: 16px;
+	font-family: 'Montserrat', sans-serif;
+	border: 0;
+    border-bottom: 1px solid gray;
+    margin-top: 14px;
+    margin-bottom: 14px;
+    box-sizing: border-box;
+}
+.loginForm input[type="text"]:focus,
+.loginForm input[type="password"]:focus,
+.loginForm input[type="text"]:active,
+.loginForm input[type="password"]:active {
+    border: 0;
+    border-bottom: 1px solid gray;
+}
+.loginForm input[type="submit"] {
+	width: 100%;
+	display: block;
+	background: rgb(249, 165, 26);
+	border: 0;
+	font-size: 18px;
+	font-family: 'Montserrat', sans-serif;
+	margin: 15px 0;
+    padding: 12px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.rememberForgetItem {
+	overflow: hidden;
+}
+.checkboxItem {
+	font-family: 'Montserrat', sans-serif;
+	float: left;
+	overflow: hidden;
+}
+.checkboxItem label {
+    margin-left: 8px;
+}
+.forgetPassword {
+	float: right;
+	overflow: hidden;
+}
+.accountText {
+    text-align: center;
+}
+.toggleText {
+    color: rgb(249, 165, 26);
+    text-decoration: underline;
+    font-weight: bold;
+    cursor: pointer;
+}
