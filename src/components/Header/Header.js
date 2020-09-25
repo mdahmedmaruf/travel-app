@@ -30,7 +30,7 @@ const Header = () => {
             {
               loggedInUser ? (
                 <>
-                  <p>{loggedInUser.email} <span onClick={() => setLoggedInUser({})}>SignOut</span></p>
+                  <p>{loggedInUser.email} <span onClick={() => setLoggedInUser('')}>SignOut</span></p>
                 </>
               ) : (
                 <Link to="/login">Login</Link>

@@ -16,7 +16,7 @@ const HotelInfo = () => {
                 <div className="left-content">
                     <h2>email: {loggedInUser.email} </h2>
                     <p>username: {loggedInUser.username}  </p>
-                    <button onClick={() => setLoggedInUser({})}>Sign Out</button>
+                    <button onClick={() => setLoggedInUser('')}>Sign Out</button>
                     <p>252 stays Apr 13-17 3 guest</p>
                     <p>Stay in Cox's Bazar</p>
                     <div className="contentImageInfo">

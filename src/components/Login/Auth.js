@@ -92,17 +92,7 @@ const Auth = () => {
 
     return (
         <div>
-            {
-              user ? (
-                <div className="loggedIn">
-                  <h2>email: {loggedInUser.email} username: {loggedInUser.username} </h2>
-                  <button onClick={handleLogOut}>Logout</button>
-                </div>
-              ) : (
-                <Login email={email} setEmail={setEmail} password={password} setPassword={setPassword} handleLogin={handleLogin} handleSignUp={handleSignUp} hasAccount={hasAccount} setHasAccount={setHasAccount} emailError={emailError} passwordError={passwordError} />
-              )
-            }
-            
+          <Login email={email} setEmail={setEmail} password={password} setPassword={setPassword} handleLogin={handleLogin} handleSignUp={handleSignUp} hasAccount={hasAccount} setHasAccount={setHasAccount} emailError={emailError} passwordError={passwordError} />
         </div>
     );
 };
